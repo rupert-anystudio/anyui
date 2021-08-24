@@ -1,7 +1,2 @@
-'use strict';
-
-module.exports = anyuiBuilder;
-
-function anyuiBuilder() {
-    // TODO
-}
+#!/usr/bin/env node
+console.log('anyui build!')
