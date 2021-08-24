@@ -1,7 +1,9 @@
-'use strict';
+import React from 'react'
 
-module.exports = anyuiCheckbox;
-
-function anyuiCheckbox() {
-    // TODO
+const Checkbox = ({ isChecked }) => {
+  return (
+    <input type="checkbox" checked={isChecked} />
+  )
 }
+
+export { Checkbox }

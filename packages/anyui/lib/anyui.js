@@ -1,7 +1,4 @@
-'use strict';
+import { Button } from '@anystudio/anyui-button'
+import { Checkbox } from '@anystudio/anyui-checkbox'
 
-module.exports = anyui;
-
-function anyui() {
-    // TODO
-}
+export { Button, Checkbox }

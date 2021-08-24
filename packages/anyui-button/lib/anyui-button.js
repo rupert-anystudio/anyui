@@ -1,7 +1,9 @@
-'use strict';
+import React from 'react'
 
-module.exports = anyuiButton;
-
-function anyuiButton() {
-    // TODO
+const Button = ({ children, onClick }) => {
+  return (
+    <button onClick={onClick}>{children}</button>
+  )
 }
+
+export { Button }
