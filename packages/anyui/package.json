@@ -18,5 +18,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@anystudio/anyui-button": "^0.0.0",
+    "@anystudio/anyui-checkbox": "^0.0.0"
   }
 }
