@@ -17,10 +17,14 @@
     "access": "public"
   },
   "scripts": {
+    "build": "anyui-builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
     "@anystudio/anyui-button": "^0.0.0",
     "@anystudio/anyui-checkbox": "^0.0.0"
+  },
+  "devDependencies": {
+    "@anystudio/anyui-builder": "^0.0.0"
   }
 }

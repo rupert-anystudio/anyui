@@ -17,9 +17,11 @@
     "access": "public"
   },
   "scripts": {
+    "build": "anyui-builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
+    "@anystudio/anyui-builder": "^0.0.0",
     "react": "^17.0.2"
   },
   "peerDependencies": {
