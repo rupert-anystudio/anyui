@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "Rupert Adlmaier <rupert@any.studio>",
   "license": "ISC",
-  "main": "lib/anyui.js",
+  "main": "dist/anyui.cjs.js",
+  "module": "dist/anyui.esm.js",
+  "src": "lib/anyui.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {

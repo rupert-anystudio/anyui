@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "Rupert Adlmaier <rupert@any.studio>",
   "license": "ISC",
-  "main": "lib/anyui-checkbox.js",
+  "main": "dist/anyui-checkbox.cjs.js",
+  "module": "dist/anyui-checkbox.esm.js",
+  "src": "lib/anyui-checkbox.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {
